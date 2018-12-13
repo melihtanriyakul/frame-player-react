@@ -2,7 +2,7 @@
 
 This is a react component that plays frames inside given images within a 'canvas'.  
 You can give image urls, their widths and height, number of frames per row and column and canvas' width and height as props to the component.  
-You can stop and continue by clicking on the canvas.
+You can pause and play the frame-player by clicking on it.
 
 ## Example GIF
 
