@@ -5,13 +5,13 @@ You can give image urls, their widths and height, number of frames per row and c
 
 
 ### Props
-  - **imageUrls** -> You can add your image urls by using this prop.
-  - **imageWidht**	->	You can designate the width of your image by using this prop.
-  - **imageHeight**	->	You can designate the height of your image by using this prop.
-	- **numOfFramesPerRow** 	->	You can set the number of frames per row by using this prop.
-	- **numOfFramesPerColumn** 	-> You can set the number of frames per column by using this prop.
-	- **canvasWidth** 	->	You can designate the width of your canvas by using this prop.
-  - **canvasHeight**	->	You can designate the height of your canvas by using this prop.
+  - **imageUrls** 		-> You can add your image urls by using this prop.
+  - **imageWidht**		-> You can designate the width of your image by using this prop.
+  - **imageHeight**		-> You can designate the height of your image by using this prop.
+  - **numOfFramesPerRow** 	-> You can set the number of frames per row by using this prop.
+  - **numOfFramesPerColumn** 	-> You can set the number of frames per column by using this prop.
+  - **canvasWidth** 		-> You can designate the width of your canvas by using this prop.
+  - **canvasHeight**		-> You can designate the height of your canvas by using this prop.
   
 ## Usage
 
