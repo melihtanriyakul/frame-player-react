@@ -1,8 +1,11 @@
-# react-auto-complete-address-fields
+# frame-player-react
 
 This is a react component that plays frames inside given images within a 'canvas'.
 You can give image urls, their widths and height, number of frames per row and column and canvas' width and height as props to the component.
 
+## Example GIF
+
+![](frame-player.gif)
 
 ### Props
   - **imageUrls** 		-> You can add your image urls by using this prop.
