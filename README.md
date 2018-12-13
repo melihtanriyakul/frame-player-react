@@ -1,3 +1,56 @@
+# react-auto-complete-address-fields
+
+This is a react component that plays frames inside given images within a 'canvas'.
+You can give image urls, their widths and height, number of frames per row and column and canvas' width and height as props to the component.
+
+
+### Props
+  - **imageUrls** -> You can add your image urls by using this prop.
+  - **imageWidht**	->	You can designate the width of your image by using this prop.
+  - **imageHeight**	->	You can designate the height of your image by using this prop.
+	- **numOfFramesPerRow** 	->	You can set the number of frames per row by using this prop.
+	- **numOfFramesPerColumn** 	-> You can set the number of frames per column by using this prop.
+	- **canvasWidth** 	->	You can designate the width of your canvas by using this prop.
+  - **canvasHeight**	->	You can designate the height of your canvas by using this prop.
+  
+## Usage
+
+```
+import React, { Component } from 'react';
+import FramePlayer from './FramePlayer';
+
+class App extends Component {
+  render() {
+    let imageUrls = [
+      "http://storage.googleapis.com/alyo/assignments/images/0.jpg",
+      "http://storage.googleapis.com/alyo/assignments/images/1.jpg",
+      "http://storage.googleapis.com/alyo/assignments/images/2.jpg",
+      "http://storage.googleapis.com/alyo/assignments/images/3.jpg",
+      "http://storage.googleapis.com/alyo/assignments/images/4.jpg",
+      "http://storage.googleapis.com/alyo/assignments/images/5.jpg",
+      "http://storage.googleapis.com/alyo/assignments/images/6.jpg",
+    ];
+    return (
+      <div>
+        <FramePlayer
+          imageUrls={imageUrls}
+          imageWidth={640}
+          imageHeight={360}
+          numOfFramesPerRow={5}
+          numOfFramesPerColumn={5}
+          canvasWidth={640}
+          canvasHeight={360}
+        />
+      </div>
+    );
+  }
+}
+
+export default App;
+```
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
